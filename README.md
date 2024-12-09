@@ -1,0 +1,2 @@
+# ShericalPinArrayInterface
+球体ピンアレイインターフェースのファームウェアと筐体の3Dデータを管理する
