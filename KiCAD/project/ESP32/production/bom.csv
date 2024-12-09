@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"J1, J2, J3, J4, J5",PinHeader_1x06_P2.54mm_Vertical,5,Conn_01x06_Pin,
+"J13, J14, J15, J16, J6, J8",PinHeader_1x04_P2.54mm_Vertical,6,Conn_01x04_Pin,
+J7,PinHeader_1x12_P2.54mm_Vertical,1,Conn_01x12_Pin,
+J9,PinHeader_1x02_P2.54mm_Vertical,1,Conn_01x02_Pin,
+U1,MODULE_ESP32-DEVKITC-32E,1,ESP32-DEVKITC-32E,
+U2,ADXL345,1,~,

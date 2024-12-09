@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,0201,1,10μF,
+"C2, C3",0201,2,0.1μF,
+C4,0402,1,0.47μF,
+D1,SOT-23,1,BAS19,
+"J1, J2",JST_EH_B8B-EH-A_1x08_P2.50mm_Vertical,2,Conn_01x08_Pin,
+R1,0201,1,100k,
+R2,1206,1,R,
+U1,HTSSOP-24-1EP_4.4x7.8mm_P0.65mm_EP3.2x5mm,1,TB6612FNG_C_8_EL,

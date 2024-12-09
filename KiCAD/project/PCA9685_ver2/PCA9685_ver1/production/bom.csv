@@ -1,0 +1,10 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C3",0603,2,10μF,
+C2,0805,1,47μF,
+"J1, J6, J7, J8",PinHeader_1x04_P2.54mm_Vertical,4,Conn_01x04_Pin,
+"J2, J3",PinHeader_1x06_P2.54mm_Vertical,2,Conn_01x06_Pin,
+J4,Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical,1,Conn_01x02,
+"R1, R19, R2, R20, R21, R22, R23, R24",0402,8,10kΩ,
+"R10, R11, R12, R13, R14, R15, R16, R17, R18, R3, R4, R5, R6, R7, R8, R9",0402,16,220Ω,
+"R25, R26",0805,2,4.7kΩ,
+U1,TSSOP-28_4.4x9.7mm_P0.65mm,1,PCA9685,

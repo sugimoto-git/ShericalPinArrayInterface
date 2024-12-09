@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "ElectroTactle-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/ElectroTactle-eagle-import.kicad_sym")(options "")(descr ""))
+)
