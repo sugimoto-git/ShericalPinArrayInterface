@@ -1,0 +1,31 @@
+name: Python CI
+
+on:
+  push:
+    branches:
+      - main  # mainブランチへの変更時に実行
+  pull_request:
+    branches:
+      - main  # mainブランチへのプルリクエスト時に実行
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # テストが実行される環境
+
+    steps:
+    - name: Check out repository code
+      uses: actions/checkout@v3  # リポジトリのコードを取得
+
+    - name: Set up Python environment
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'  # 使用するPythonのバージョン
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # 必要なライブラリをインストール
+
+    - name: Run tests
+      run: |
+        pytest  # テストを実行
